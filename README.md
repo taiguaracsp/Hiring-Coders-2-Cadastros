@@ -2,7 +2,7 @@
 
 ### About:
 
-Landing Page developed for the first challenge of Hiring Coders #2 of Gama Academy.
+Page for registering customers and products of a company. It was developed for the second challenge of Hiring Coders #2 by Gama Academy.
 
 
 
