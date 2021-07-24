@@ -55,3 +55,34 @@ export const Botao = styled.button`
         filter: brightness(1.1)
     }
 `
+
+export const Creditos = styled.footer`
+    max-width: 560px;
+    margin: 10px auto;
+    text-align: center;
+`
+
+export const Credito1 = styled.a`
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 600;
+    color: #414B4E;
+    display: flex;
+    justify-content: center;
+
+    :active{
+        text-decoration: none;
+    }
+`
+
+export const Credito2 = styled.a`
+    text-decoration: none;
+    font-size: 10px;
+    color: #414B4E;
+    display: flex;
+    justify-content: center;
+
+    :active{
+        text-decoration: none;
+    }
+`

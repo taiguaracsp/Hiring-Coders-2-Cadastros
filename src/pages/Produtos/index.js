@@ -1,10 +1,12 @@
 import React from 'react'
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Container, Header, LogoImg, FormProdutos, FormDiv, FormLabel, FormInput, InputNumerico, DivBotao, BotaoVoltar, Botao } from './styles';
+import { Container, Header, LogoImg, FormProdutos, FormDiv, FormLabel, FormInput, InputNumerico, DivBotao, BotaoVoltar, Botao, Creditos, Credito1, Credito2 } from './styles';
 import logo from '../../logo.jpg'
 
 export default function Produtos() {
+    document.title = 'Info Solutions - Cadastros'
+
     const setStatus = useState(false);
     const [productData, setProductData] = useState({
         id: "",
@@ -101,6 +103,11 @@ export default function Produtos() {
                     <Botao className="form-input-btn" type="submit">CADASTRAR PRODUTO</Botao>
                 </DivBotao>
             </FormProdutos>
+
+            <Creditos class="footer">
+                <Credito1 href="https://taiguaracsp.github.io" target="_blank">Website developed by Taiguara Cavaliere</Credito1>
+                <Credito2 href="https://www.freepik.com/vectors/design" target="_blank">Design vector created by freepik - www.freepik.com</Credito2>
+            </Creditos>
 
         </Container>
     )
